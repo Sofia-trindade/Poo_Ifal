@@ -11,6 +11,11 @@ body {
     color: #a6a6a6;
 }
 
+.capa{
+    width: 150px; /*largura*/
+    
+}
+
 .titulo{
     color: #FFD700;
     font-size: 20px; /*tamanho da fonte*/
@@ -26,3 +31,4 @@ body {
     font-size: 12px; /*tamanho da fonte*/
 
  }
+ 
