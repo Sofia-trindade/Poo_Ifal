@@ -1,3 +1,4 @@
+//criação dos obejtos
 let musica1 = {capa: 'menina_Solta.jpg', Titulo: 'Menina solta', Artista: 'Giulia Be', Album: 'Solta'};
 let musica2 = {capa: 'Menina_Má.png', Titulo: 'Menina má', Artista: 'Anitta', Album: 'Anitta'};
 let musica3 = {capa: 'Menina.jpg', Titulo: 'Menina', Artista: 'Bia Marques', Album: 'Menina'};
@@ -9,6 +10,7 @@ let musica8 = {capa: 'Pactos.jpeg', Titulo: 'Pactos', Artista: 'Matheus & Kauan'
 let musica9 = {capa: 'lovely.jpeg', Titulo: 'lovely', Artista: 'Billie Eilish e Khalid', Album: 'When We All Fall Asleep, Where Do We Go?'};
 let musica10 = {capa: 'What Was.jpeg', Titulo: 'What Was I Made For?', Artista: 'Billie Eilish', Album: 'Barbie: The Album'};
 
+//criação do array
 let playlistSofia = [
     musica1,
     musica2,

@@ -13,11 +13,11 @@ body {
 
 .capa{
     width: 150px; /*largura*/
-    
+
 }
 
 .titulo{
-    color: #FFD700;
+    color: fuchsia;
     font-size: 20px; /*tamanho da fonte*/
     font-weight: 800; /* espessura da linha da fonte*/
 
