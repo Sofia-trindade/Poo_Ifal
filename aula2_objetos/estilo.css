@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+.card{
+    margin: 16px;
+    padding: 20px;
+    border: solid 2px #393939;
+
+    /*tipo de fonte*/
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a6a6a6;
+}
+
+.titulo{
+    color: #FFD700;
+    font-size: 20px; /*tamanho da fonte*/
+    font-weight: 800; /* espessura da linha da fonte*/
+
+}
+ .artista{
+    color: aliceblue;
+
+ }
+
+ .album{
+    font-size: 12px; /*tamanho da fonte*/
+
+ }

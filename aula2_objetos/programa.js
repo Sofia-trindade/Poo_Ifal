@@ -9,3 +9,27 @@ let musica8 = {Titulo: 'Pactos', Artista: 'Matheus & Kauan', Album: 'Basiquinho'
 let musica9 = {Titulo: 'lovely', Artista: 'Billie Eilish e Khalid', Album: 'When We All Fall Asleep, Where Do We Go?'};
 let musica10 = {Titulo: 'What Was I Made For?', Artista: 'Billie Eilish', Album: 'Barbie: The Album'};
 
+let playlistSofia = [
+    musica1,
+    musica2,
+    musica3,
+    musica4,
+    musica5,
+    musica6,
+    musica7,
+    musica8,
+    musica9,
+    musica10
+];
+
+// Percorrendo o array e escrevendo um div p/ cd elemento do array
+for (let i = 0; i < playlistSofia.length; i++){
+    let musica = playlistSofia[i];
+    document.write(`
+    <div class="card">
+        <div class="titulo">${playlistSofia[i].Titulo}</div>
+        <div class="artista">${playlistSofia[i].Artista}</div>
+        <div class="album">${playlistSofia[i].Album}</div>
+    </div>
+    `)
+}
