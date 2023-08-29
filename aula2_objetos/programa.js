@@ -11,7 +11,7 @@ let musica9 = new Musica('lovely.jpeg', 'lovely', 'Billie Eilish e Khalid', 'Whe
 let musica10 = new Musica('What Was.jpeg', 'What Was I Made For?', 'Billie Eilish', 'Barbie: The Album');
 
 //criação do arra)
-let playlistSofia = [
+let myPlaylist = [
     musica1,
     musica2,
     musica3,
@@ -25,13 +25,13 @@ let playlistSofia = [
 ];
 
 // Percorrendo o array e escrevendo um div p/ cd elemento do array
-for (let i = 0; i < playlistSofia.length; i++){
+for (let i = 0; i < myPlaylist.length; i++){
     document.write(`
     <div class="card">
-        <img class="capa" src="img/${playlistSofia[i].capa}"/>
-        <div class="titulo">${playlistSofia[i].titulo}</div>
-        <div class="artista">${playlistSofia[i].artista}</div>
-        <div class="album">${playlistSofia[i].album}</div>
+        <img class="capa" src="img/${myPlaylist[i].capa}"/>
+        <div class="titulo">${myPlaylist[i].titulo}</div>
+        <div class="artista">${myPlaylist[i].artista}</div>
+        <div class="album">${myPlaylist[i].album}</div>
     </div>
     `)
 }

@@ -1,5 +1,9 @@
 body {
     background-color: black;
+
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
 }
 .card{
     margin: 16px;
@@ -9,12 +13,32 @@ body {
     /*tipo de fonte*/
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #a6a6a6;
+
+    filter: opacity(0.5);
 }
+
+.card:hover{
+    box-shadow: 4px 4px 20px fuchsia;
+    transform: scale(1.05);
+    transition: ease-in 200ms;
+
+    filter: opacity(1);
+} 
 
 .capa{
-    width: 150px; /*largura*/
+    width: 240px; /*largura*/
+    height: 240px; /*altura*/
+    object-fit: cover; 
 
+    /* filter: grayscale(1);  --tirando a cor */
+    
 }
+
+/* .card:hover .capa{
+    filter: grayscale(0);  --ativa de volta acor ao passar o mouse (comando .card:houver)
+}*/
+
+
 
 .titulo{
     color: fuchsia;
