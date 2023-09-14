@@ -5,7 +5,7 @@ class Aluno {
         this.primeiroNome = primeiroNome;
         this.ultimoNome = ultimoNome;
 
-        this.dataDeNascimento = dataDeNascimento;
+        this.dataDeNascimento = new Date (dataDeNascimento);
         this.cidade = cidade;
     }
 
