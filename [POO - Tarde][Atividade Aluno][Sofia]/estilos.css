@@ -1,10 +1,16 @@
 body{ 
     background-color: black;
+    color: aliceblue;
 
     display: flex;
     flex-wrap: wrap;
     
 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     margin: 16px;
