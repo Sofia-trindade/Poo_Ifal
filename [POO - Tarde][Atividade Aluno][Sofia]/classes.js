@@ -24,3 +24,25 @@ class Aluno {
     }
 
 }
+
+// classe container
+
+//adicione 2 atributos a esta classe:
+//titulo
+//listaDeAlunos
+
+//o construtor deverá ter 1 entrada: titulo
+// o construtor deverá inicializar:
+// o atributo titulo com a entrada titulo;
+// e o atributo listaDeAlunos com um array vazio
+
+class Turma{
+    constructor(titulo){
+        this.titulo = titulo;
+        this.listaDeAlunos = [];
+    }
+    adicionarAluno(aluno){
+        this.listaDeAlunos.push(aluno);
+    }
+}
+
